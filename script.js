@@ -12,6 +12,22 @@
 //     });
 //   });
 
+// fetch data using Async Await
+
+// async function fetchData() {
+//   let res = await fetch(url, { method: 'GET' });
+//   let data = await res.json();
+//   let collection = document.querySelector('.collection');
+//   console.log(data);
+//   data.forEach((element) => {
+//     let list = document.createElement('li');
+//     list.innerText = element.title;
+//     collection.append(list);
+//   });
+// }
+
+// fetchData();
+
 let image = document.querySelector('#image');
 let url = 'https://coffee.alexflipnote.dev/random.json';
 
